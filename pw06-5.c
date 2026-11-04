@@ -111,7 +111,7 @@ int get_hex(unsigned int *input_hex)
     return 1;
 }
 
-void flushstdin()
+void flushstdin(void)
 {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
